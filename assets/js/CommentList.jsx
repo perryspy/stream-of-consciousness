@@ -62,11 +62,10 @@ var Comment = React.createClass({
     var t = new Date(this.props.time);
     return (
       <div className="comment well">
-        <h4 className="commentAuthor">{this.props.author} <small> commented {$.timeago(t)}</small>
+        <h4 className="commentAuthor">{this.props.author} <small> thought {$.timeago(t)}</small>
           <button type="button" className="close" aria-hidden="true" onClick={this.handleClick}>&times;</button>          
         </h4>
-        <i className="glyphicon glyphicon-menu-right pull-left" />
-        <span><p>{this.props.children}</p></span>
+        <span><p>&ldquo;{this.props.children}&rdquo;</p></span>
       </div>
     );
   }
