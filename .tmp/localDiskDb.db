@@ -1,0 +1,40 @@
+{
+  "data": {
+    "comment": [
+      {
+        "author": "Perry",
+        "text": "remember to breathe",
+        "createdAt": "2016-10-15T17:30:53.396Z",
+        "updatedAt": "2016-10-15T17:30:53.396Z",
+        "id": 4
+      }
+    ]
+  },
+  "schema": {
+    "comment": {
+      "author": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "comment": {
+      "id": 4
+    }
+  }
+}

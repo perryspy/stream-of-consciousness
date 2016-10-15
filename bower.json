@@ -1,0 +1,26 @@
+{
+  "name": "stream-of-conscioiusness",
+  "version": "0.0.0",
+  "homepage": "https://github.com/perryspy/stream-of-conscioiusness",
+  "authors": [
+    "perry.spy@gmail.com <perry.spy@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.14.7",
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6",
+    "jquery-timeago": "~1.4.1",
+    "requirejs": "~2.1.22",
+    "showdown": "~0.3.1",
+    "director": "~1.2.2",
+    "classnames": "~2.2.3"
+  }
+}
