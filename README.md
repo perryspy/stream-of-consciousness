@@ -26,10 +26,4 @@ npm install --save-dev MODULE
 * Utilized the [sails-react-example](https://github.com/mixxen/sails-react-example) to implement the react frontend for viewing and editing comments
 * Modified layout, jsx render markup, and custom styling
 * Deployed app on heroku using github repo
-
-## Comments
-* Currently deployed using in memory db. Sails-mongo config seems to work when running the app locally, but crashes when deployed to heroku. I think it might be related to heroku dymanically setting the port, although sails is supposed to handle that out of the box.
-
-## Todo
-* Get it working with mongodb on heroku
-* Utilize mongolabs cloud db service
+* configured sails-mongo and db via mlabs cloud db service
