@@ -21,6 +21,15 @@
 
 module.exports.connections = {
 
+  mongoDB: {
+    adapter: 'sails-mongo',
+    host: 'ds059316.mlab.com',
+    port: 59316,
+    user: 'admin',
+    password: 'password',
+    database: 'soc-dev'
+  },
+
   // Local disk storage for DEVELOPMENT ONLY
   //
   // Installed by default.
