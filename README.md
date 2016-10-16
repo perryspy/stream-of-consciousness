@@ -26,4 +26,10 @@ npm install --save-dev MODULE
 * Utilized the [sails-react-example](https://github.com/mixxen/sails-react-example) to implement the react frontend for viewing and editing comments
 * Modified layout, jsx render markup, and custom styling
 * Deployed app on heroku using github repo
-* configured sails-mongo and db via mlabs cloud db service
+* Configured sails-mongo and db via mlabs cloud db service
+
+##TODO
+* rewrite react components to be more modular
+* refactor to use flux or redux
+* user creation and authorization
+* restrict users to delete only comments they wrote
